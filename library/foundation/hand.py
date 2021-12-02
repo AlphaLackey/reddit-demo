@@ -1,14 +1,17 @@
 # Created by Charles R. Mousseau
 # 2021 March 01
 
-import general
+import sys
+sys.path.append("library")
+
+from utilities.general import General
 
 class Hand:
 	def __init__(self):
 		self.cards = []
 
 	def __str__(self):
-		return "[ " + general.General.cardVectorToString(self.cards) + " ]"
+		return "[ " + General.cardVectorToString(self.cards) + " ]"
 		
 	def clear(self):
 		self.cards = []
