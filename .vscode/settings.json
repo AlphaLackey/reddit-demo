@@ -1,5 +1,5 @@
 {
 	"terminal.integrated.env.osx": {
-		"PYTHONPATH": "${workspaceFolder}/library/foundation,${workspaceFolder}/library/games,${workspaceFolder}/library/utilities"
+		"PYTHONPATH": "${workspaceFolder}/library"
 	}
 }

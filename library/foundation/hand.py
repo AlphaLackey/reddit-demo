@@ -1,9 +1,6 @@
 # Created by Charles R. Mousseau
 # 2021 March 01
 
-import sys
-sys.path.append("library")
-
 from utilities.general import General
 
 class Hand:

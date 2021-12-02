@@ -1,11 +1,14 @@
 # Created by Charles R. Mousseau
 # 2021 March 01
 
-import sys
-sys.path.append("library")
+# import sys
+# sys.path.append("library")
 
-from games.blackjack import Blackjack
+# from games.blackjack import Blackjack
+# from hand import Hand
+
 from hand import Hand
+from games.blackjack import Blackjack
 
 class BlackjackHand(Hand):
 	def __init__(self):
