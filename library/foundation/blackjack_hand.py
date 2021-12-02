@@ -8,7 +8,7 @@
 # from hand import Hand
 
 from hand import Hand
-from games.blackjack import Blackjack
+from library.games.blackjack import Blackjack
 
 class BlackjackHand(Hand):
 	def __init__(self):

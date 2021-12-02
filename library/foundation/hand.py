@@ -1,7 +1,8 @@
 # Created by Charles R. Mousseau
 # 2021 March 01
 
-from utilities.general import General
+from library.utilities.general import General
+# from utilities.general import General
 
 class Hand:
 	def __init__(self):
